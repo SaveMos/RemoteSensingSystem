@@ -1,0 +1,299 @@
+version 3
+run General-0-20231211-16:32:42-20208
+attr configname General
+attr datetime 20231211-16:32:42
+attr datetimef 20231211-163242
+attr experiment General
+attr inifile ../simulations/omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network RemoteSensingSystem
+attr processid 20208
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config cmdenv-redirect-output false
+config network RemoteSensingSystem
+config cpu-time-limit 60s
+config ***.H 100m
+config ***.L 100m
+config **.sensingnode*.D 30m
+config **.sensingnode*.T 2s
+
+par RemoteSensingSystem.accesspoint1.out_sink.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.accesspoint1.out_sink.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.accesspoint1.out_sink.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.accesspoint2.out_sink.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.accesspoint2.out_sink.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.accesspoint2.out_sink.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.accesspoint3.out_sink.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.accesspoint3.out_sink.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.accesspoint3.out_sink.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.accesspoint1.out_switch.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.accesspoint1.out_switch.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.accesspoint1.out_switch.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.accesspoint2.out_switch.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.accesspoint2.out_switch.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.accesspoint2.out_switch.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.accesspoint3.out_switch.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.accesspoint3.out_switch.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.accesspoint3.out_switch.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode1.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode1.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode1.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode2.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode2.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode2.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode3.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode3.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode3.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode4.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode4.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode4.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode5.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode5.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode5.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode6.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode6.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode6.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode7.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode7.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode7.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode8.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode8.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode8.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode9.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode9.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode9.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.sensingnode10.out.channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.sensingnode10.out.channel disabled false
+attr mutable ""
+par RemoteSensingSystem.sensingnode10.out.channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.switch.out[0].channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.switch.out[0].channel disabled false
+attr mutable ""
+par RemoteSensingSystem.switch.out[0].channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.switch.out[1].channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.switch.out[1].channel disabled false
+attr mutable ""
+par RemoteSensingSystem.switch.out[1].channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.switch.out[2].channel typename "\"ned.DelayChannel\""
+par RemoteSensingSystem.switch.out[2].channel disabled false
+attr mutable ""
+par RemoteSensingSystem.switch.out[2].channel delay 0.1s
+attr mutable ""
+attr unit s
+par RemoteSensingSystem.switch typename "\"remotesensingsystem.Switch\""
+par RemoteSensingSystem.sink typename "\"remotesensingsystem.SinkNode\""
+par RemoteSensingSystem.accesspoint1 typename "\"remotesensingsystem.AccessPoint\""
+par RemoteSensingSystem.accesspoint1 H 100m
+attr unit m
+par RemoteSensingSystem.accesspoint1 L 100m
+attr unit m
+par RemoteSensingSystem.accesspoint2 typename "\"remotesensingsystem.AccessPoint\""
+par RemoteSensingSystem.accesspoint2 H 100m
+attr unit m
+par RemoteSensingSystem.accesspoint2 L 100m
+attr unit m
+par RemoteSensingSystem.accesspoint3 typename "\"remotesensingsystem.AccessPoint\""
+par RemoteSensingSystem.accesspoint3 H 100m
+attr unit m
+par RemoteSensingSystem.accesspoint3 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode1 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode1 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode1 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode1 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode1 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode1 max_speed 3
+par RemoteSensingSystem.sensingnode1 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode1 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode2 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode2 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode2 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode2 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode2 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode2 max_speed 3
+par RemoteSensingSystem.sensingnode2 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode2 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode3 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode3 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode3 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode3 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode3 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode3 max_speed 3
+par RemoteSensingSystem.sensingnode3 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode3 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode4 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode4 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode4 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode4 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode4 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode4 max_speed 3
+par RemoteSensingSystem.sensingnode4 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode4 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode5 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode5 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode5 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode5 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode5 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode5 max_speed 3
+par RemoteSensingSystem.sensingnode5 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode5 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode6 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode6 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode6 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode6 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode6 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode6 max_speed 3
+par RemoteSensingSystem.sensingnode6 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode6 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode7 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode7 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode7 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode7 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode7 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode7 max_speed 3
+par RemoteSensingSystem.sensingnode7 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode7 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode8 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode8 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode8 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode8 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode8 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode8 max_speed 3
+par RemoteSensingSystem.sensingnode8 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode8 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode9 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode9 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode9 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode9 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode9 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode9 max_speed 3
+par RemoteSensingSystem.sensingnode9 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode9 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem.sensingnode10 typename "\"remotesensingsystem.Sensing_Node\""
+par RemoteSensingSystem.sensingnode10 H 100m
+attr unit m
+par RemoteSensingSystem.sensingnode10 L 100m
+attr unit m
+par RemoteSensingSystem.sensingnode10 D 30m
+attr unit m
+par RemoteSensingSystem.sensingnode10 T 2s
+attr unit s
+par RemoteSensingSystem.sensingnode10 max_speed 3
+par RemoteSensingSystem.sensingnode10 max_distance_movement 6m
+attr unit m
+par RemoteSensingSystem.sensingnode10 min_distance_movement 1m
+attr unit m
+par RemoteSensingSystem typename "\"remotesensingsystem.simulations.RemoteSensingSystem\""
+
